@@ -1,0 +1,550 @@
+[
+	{
+		"name": "David Perell",
+		"feed": "https://perell.com/feed/",
+		"website": "https://perell.com/",
+		"substack": "",
+		"twitter": "https://twitter.com/david_perell",
+		"mentor": false,
+		"staff": true
+	},
+	{
+		"name": "Will Mannon",
+		"feed": "https://willmannon.substack.com/feed",
+		"website": "https://www.will-mannon.com",
+		"substack": "https://willmannon.substack.com",
+		"twitter": "https://twitter.com/will_mannon",
+		"mentor": false,
+		"staff": true
+	},
+	{
+		"name": "Michael Dean",
+		"feed": "https://www.michaeldean.site/feed",
+		"website": "https://www.michaeldean.site/",
+		"substack": "https://www.michaeldean.site",
+		"twitter": "https://twitter.com/MichaelDean_0",
+		"mentor": false,
+		"staff": true
+	},
+	{
+		"name": "Matt Tillotson",
+		"feed": "https://matttillotson.substack.com/feed",
+		"website": "",
+		"substack": "https://matttillotson.substack.com",
+		"twitter": "https://twitter.com/matttillotson",
+		"mentor": false,
+		"staff": true
+	},
+	{
+		"name": "Charlotte Grysolle",
+		"feed": "https://www.charlottegrysolle.com/blog/rss/",
+		"website": "https://www.charlottegrysolle.com",
+		"substack": "",
+		"twitter": "https://twitter.com/chargrysolle",
+		"mentor": false,
+		"staff": true
+	},
+	{
+		"name": "Alexandra Allen",
+		"feed": "https://alexandraallen.substack.com/feed",
+		"website": "",
+		"substack": "https://alexandraallen.substack.com",
+		"twitter": "https://twitter.com/AlexandraAllen_",
+		"mentor": true,
+		"staff": false
+	},
+	{
+		"name": "Charlie Bleecker",
+		"feed": "https://charliebleecker.substack.com/feed",
+		"website": "charliebleecker.com",
+		"substack": "https://charliebleecker.substack.com/",
+		"twitter": "https://twitter.com/BleeckerCharlie",
+		"mentor": true,
+		"staff": false
+	},
+	{
+		"name": "Charlie Becker",
+		"feed": "https://charliebecker.substack.com/feed",
+		"website": "http://thoughtbananas.com",
+		"substack": "https://charliebecker.substack.com",
+		"twitter": "https://twitter.com/charlesdbecker",
+		"mentor": true,
+		"staff": false
+	},
+	{
+		"name": "Christin Chong",
+		"feed": "https://christin.substack.com/feed",
+		"website": "https://christinchong.com",
+		"substack": "https://christin.substack.com",
+		"twitter": "https://twitter.com/Christintweets",
+		"mentor": true,
+		"staff": false
+	},
+	{
+		"name": "Corey Wilks",
+		"feed": "https://coreywilkspsyd.com/feed/",
+		"website": "https://coreywilkspsyd.com",
+		"substack": "",
+		"twitter": "https://twitter.com/CoreyWilksPsyD",
+		"mentor": true,
+		"staff": false
+	},
+	{
+		"name": "Ed Latimore",
+		"feed": "https://edlatimore.com/feed.xml",
+		"website": "https://edlatimore.com",
+		"substack": "",
+		"twitter": "https://twitter.com/edlatimore",
+		"mentor": true,
+		"staff": false
+	},
+	{
+		"name": "John Nicholas",
+		"feed": "https://www.johnnicholas.org/blog/rss/",
+		"website": "https://www.johnnicholas.org",
+		"substack": "",
+		"twitter": "https://twitter.com/john__nic",
+		"mentor": true,
+		"staff": false
+	},
+	{
+		"name": "JooJo Ocran",
+		"feed": "https://www.getrevue.co/profile/joojoocran?format=rss",
+		"website": "https://www.joojoocran.com",
+		"substack": "",
+		"twitter": "https://twitter.com/odomfoneba",
+		"mentor": true,
+		"staff": false
+	},
+	{
+		"name": "Louie Bacaj",
+		"feed": "https://newsletter.memesmotivations.com/feed",
+		"website": "https://louiebacaj.com",
+		"substack": "https://newsletter.memesmotivations.com",
+		"twitter": "https://twitter.com/LBacaj",
+		"mentor": true,
+		"staff": false
+	},
+	{
+		"name": "Melissa Menke",
+		"feed": "https://melissamenke.substack.com/feed",
+		"website": "https://www.melissamenke.com",
+		"substack": "https://melissamenke.substack.com",
+		"twitter": "https://twitter.com/melissa_menke",
+		"mentor": true,
+		"staff": false
+	},
+	{
+		"name": "Michael Sklar",
+		"feed": "https://www.sklarinterests.com/writing?format=rss",
+		"website": "https://www.sklarinterests.com",
+		"substack": "",
+		"twitter": "https://twitter.com/michaelsklar",
+		"mentor": true,
+		"staff": false
+	},
+	{
+		"name": "Terri Lonier",
+		"feed": "https://terrilonier.com/feed/",
+		"website": "https://terrilonier.com",
+		"substack": "",
+		"twitter": "https://twitter.com/TerriLonier",
+		"mentor": true,
+		"staff": false
+	},
+	{
+		"name": "Adam Saks",
+		"feed": "https://adamsaks.substack.com/feed",
+		"substack": "https://adamsaks.substack.com",
+		"twitter": "https://twitter.com/adamlsaks"
+	},
+	{
+		"name": "Arman Khodadoost",
+		"feed": "https://armankho.substack.com/feed",
+		"substack": "https://armankho.substack.com",
+		"twitter": "https://twitter.com/ArmanKhodadoost"
+	},
+	{
+		"name": "Alan Hibbard",
+		"feed": "https://alanhibbard.substack.com/feed",
+		"substack": "https://alanhibbard.substack.com/",
+		"twitter": "https://twitter.com/AlanHibbard"
+	},
+	{
+		"name": "Alisa Sano",
+		"feed": "https://positiverealist.substack.com/feed",
+		"substack": "https://positiverealist.substack.com",
+		"twitter": "https://twitter.com/positiverealist"
+	},
+	{
+		"name": "Angie Wang",
+		"feed": "https://www.angiecreates.io/rss/",
+		"website": "https://www.angiecreates.io/",
+		"twitter": "https://twitter.com/angieeecreates"
+	},
+	{
+		"name": "Azul Wells",
+		"feed": "https://www.azulwells.com/essays?format=rss",
+		"website": "https://www.azulwells.com",
+		"twitter": "https://twitter.com/Azul_Wells"
+	},
+	{
+		"name": "Brent Lyman",
+		"feed": "https://parcferme.substack.com/feed",
+		"substack": "https://parcferme.substack.com"
+	},
+	{
+		"name": "Brian Astrove",
+		"feed": "https://brianastrove.substack.com/feed",
+		"substack": "https://brianastrove.substack.com",
+		"twitter": "https://twitter.com/brianastrove"
+	},
+	{
+		"name": "Brian Helfman",
+		"feed": "https://brianhelfman.substack.com/feed",
+		"substack": "https://brianhelfman.substack.com",
+		"twitter": "https://twitter.com/brianhelfman"
+	},
+	{
+		"name": "Bryan Liu",
+		"feed": "https://theworthypath.substack.com/feed",
+		"website": "https://bryanliu.blog",
+		"substack": "https://theworthypath.substack.com/",
+		"twitter": "https://twitter.com/AceBryanLiu"
+	},
+	{
+		"name": "Cam Houser",
+		"feed": "https://www.camhouser.com/feed/",
+		"website": "https://www.camhouser.com",
+		"twitter": "https://twitter.com/cahouser"
+	},
+	{
+		"name": "Camilo Moreno-Salamanca",
+		"feed": "https://www.camiloms.com/musings?format=rss",
+		"website": "https://www.camiloms.com",
+		"twitter": "https://twitter.com/camilomoresala"
+	},
+	{
+		"name": "CansaFis",
+		"feed": "https://cansafis.substack.com/feed",
+		"substack": "https://cansafis.substack.com"
+	},
+	{
+		"name": "Cecile M",
+		"feed": "https://www.cecilemarion.org",
+		"twitter": "https://twitter.com/cecile_mcm"
+	},
+	{
+		"name": "Chad Smith",
+		"feed": "https://www.humanwealthpartners.com/blog?format=rss",
+		"website": "https://www.humanwealthpartners.com",
+		"twitter": "https://twitter.com/TheHumanFire"
+	},
+	{
+		"name": "Chris Cordry",
+		"feed": "https://chriscordry.substack.com/feed",
+		"website": "https://chriscordry.com",
+		"substack": "https://chriscordry.substack.com",
+		"twitter": "https://twitter.com/chriscordry"
+	},
+	{
+		"name": "Chris Wong",
+		"feed": "https://chr.iswong.com/rss/",
+		"website": "https://chr.iswong.com/",
+		"twitter": "https://twitter.com/chr_iswong"
+	},
+	{
+		"name": "Chris Coffman",
+		"feed": "https://ccoffman.substack.com/feed",
+		"substack": "https://ccoffman.substack.com",
+		"twitter": "https://twitter.com/ChristoWCoffman"
+	},
+	{
+		"name": "Christopher Stadler",
+		"feed": "https://oenologicalescapades.substack.com/feed",
+		"substack": "https://oenologicalescapades.substack.com",
+		"twitter": "https://twitter.com/milehighwino"
+	},
+	{
+		"name": "David Shepherd",
+		"feed": "https://www.daveshep.co/rss.xml",
+		"website": "https://www.daveshep.co",
+		"twitter": "https://twitter.com/DavidWShepherd"
+	},
+	{
+		"name": "David Wolfe",
+		"feed": "https://davidwolfe.substack.com/feed",
+		"substack": "https://davidwolfe.substack.com",
+		"twitter": "https://twitter.com/DavidAlanWolfe"
+	},
+	{
+		"name": "Drake Greene",
+		"feed": "https://drakegreene.substack.com/feed",
+		"substack": "https://drakegreene.substack.com"
+	},
+	{
+		"name": "Elizabeth Edwards",
+		"feed": "https://elizabethedwards.substack.com/feed",
+		"website": "https://www.elizabethedwards.site",
+		"substack": "https://elizabethedwards.substack.com",
+		"twitter": "https://twitter.com/ElzbthEdwrds"
+	},
+	{
+		"name": "Emmy Sobieski",
+		"feed": "https://www.emmysobieski.com/real-wealth?format=rss",
+		"website": "https://www.emmysobieski.com",
+		"twitter": "https://twitter.com/EmmySobieski"
+	},
+	{
+		"name": "Ethan Cohen",
+		"feed": "https://ethancohen.substack.com/feed",
+		"substack": "https://ethancohen.substack.com",
+		"twitter": "https://twitter.com/ethcohen2"
+	},
+	{
+		"name": "Grace Sydney Smith",
+		"feed": "https://gracesydneysmith.substack.com/feed",
+		"website": "https://www.gracesydneywrites.com",
+		"substack": "https://gracesydneysmith.substack.com/",
+		"twitter": "https://twitter.com/grace_ssmith"
+	},
+	{
+		"name": "Graham Lau",
+		"feed": "http://explore.cosmobiota.com/?format=rss",
+		"website": "https://cosmobiota.com",
+		"twitter": "https://twitter.com/cosmobiologist"
+	},
+	{
+		"name": "Helen Jiang",
+		"feed": "https://earthlyfortunes.substack.com/feed",
+		"substack": "https://earthlyfortunes.substack.com",
+		"twitter": "https://twitter.com/thetruehelen"
+	},
+	{
+		"name": "Ishan Shanavas",
+		"feed": "https://ishanshanavas.substack.com/feed",
+		"substack": "https://ishanshanavas.substack.com"
+	},
+	{
+		"name": "James Bailey",
+		"feed": "https://onmoneyandmeaning.substack.com/feed",
+		"substack": "https://onmoneyandmeaning.substack.com"
+	},
+	{
+		"name": "Jen Vermet",
+		"feed": "https://learnitalletter.substack.com/feed",
+		"twitter": "https://twitter.com/JenVermet",
+		"substack": "https://learnitalletter.substack.com"
+	},
+	{
+		"name": "Josh Cadorette",
+		"feed": "https://www.joshcadorette.com//feed/rss2",
+		"website": "https://www.joshcadorette.com",
+		"twitter": "https://twitter.com/joshcadorette"
+	},
+	{
+		"name": "Josh Knox",
+		"feed": "https://iamjoshknox.com/feed/",
+		"website": "https://iamjoshknox.com",
+		"twitter": "https://twitter.com/iamjoshknox"
+	},
+	{
+		"name": "Jenny Messerle",
+		"feed": "https://jennymesserle.substack.com/feed",
+		"website": "https://jennymesserle.com",
+		"substack": "https://jennymesserle.substack.com",
+		"twitter": "https://twitter.com/JennyMesserle"
+	},
+	{
+		"name": "Jonathan Vazquez",
+		"feed": "https://www.fallingtosystems.com/rss/",
+		"website": "https://www.fallingtosystems.com",
+		"twitter": "https://twitter.com/vasquez3"
+	},
+	{
+		"name": "Karaminder",
+		"feed": "https://karaminder.com/rss/",
+		"website": "https://karaminder.com",
+		"twitter": "https://twitter.com/Karaminder"
+	},
+	{
+		"name": "Keith Conway",
+		"feed": "https://keithconway.substack.com/feed",
+		"substack": "https://keithconway.substack.com",
+		"twitter": "https://twitter.com/algirhythm"
+	},
+	{
+		"name": "Kelly Davis",
+		"feed": "https://kdavis.substack.com/feed",
+		"website": "https://www.kellydavis.xyz",
+		"substack": "https://kdavis.substack.com",
+		"twitter": "https://twitter.com/Kelly_EdTech"
+	},
+	{
+		"name": "Latham Turner",
+		"feed": "https://lathamturner.substack.com/feed",
+		"substack": "https://lathamturner.substack.com",
+		"twitter": "https://twitter.com/lathamht"
+	},
+	{
+		"name": "Leo Ariel",
+		"feed": "https://leoariel.substack.com/feed",
+		"substack": "https://leoariel.substack.com",
+		"twitter": "https://twitter.com/lxoariel"
+	},
+	{
+		"name": "Leslie Kim",
+		"feed": "https://lesliesamkim.substack.com/feed",
+		"website": "http://www.lesliesamkim.com/",
+		"substack": "https://lesliesamkim.substack.com",
+		"twitter": "https://twitter.com/lesliesamkim"
+	},
+	{
+		"name": "Louis Pereira",
+		"feed": "https://louispereira.substack.com/feed",
+		"website": "https://louispereira.xyz",
+		"substack": "https://louispereira.substack.com",
+		"twitter": "https://twitter.com/louispereira"
+	},
+	{
+		"name": "Michelle Varhoose",
+		"feed": "https://michellevarghoose.substack.com/feed",
+		"substack": "https://michellevarghoose.substack.com",
+		"twitter": "https://twitter.com/mvarghoose"
+	},
+	{
+		"name": "Mak Mahmudur Rahman",
+		"feed": "https://thinkingloudlyuk.substack.com/feed",
+		"substack": "https://thinkingloudlyuk.substack.com",
+		"twitter": "https://twitter.com/mak_r_"
+	},
+	{
+		"name": "Mafe Razetto",
+		"feed": "https://www.maferazetto.com/feed",
+		"website": "https://www.maferazetto.com"
+	},
+	{
+		"name": "Malavika Prasad",
+		"feed": "https://diffuseattention.substack.com/feed",
+		"substack": "https://diffuseattention.substack.com",
+		"twitter": "https://twitter.com/MaLawdy"
+	},
+	{
+		"name": "Nic Rosslee",
+		"feed": "https://nicrosslee.substack.com/feed",
+		"substack": "https://nicrosslee.substack.com",
+		"twitter": "https://twitter.com/nicrosslee"
+	},
+	{
+		"name": "Or Dubinsky",
+		"feed": "https://ordubinsky.substack.com/feed",
+		"substack": "https://ordubinsky.substack.com",
+		"twitter": "https://twitter.com/ordubi"
+	},
+	{
+		"name": "Oscar Obregon",
+		"feed": "https://oscarobregon.substack.com/feed",
+		"twitter": "https://twitter.com/oscar_obregon_",
+		"substack": "https://oscarobregon.substack.com"
+	},
+	{
+		"name": "Peter Conley",
+		"feed": "https://peterdavidconley.com/feed/",
+		"website": "https://peterdavidconley.com",
+		"twitter": "https://twitter.com/PeterDConley"
+	},
+	{
+		"name": "Rachel Morris",
+		"feed": "https://rachelmorris.substack.com/feed",
+		"substack": "https://rachelmorris.substack.com"
+	},
+	{
+		"name": "Rachael Tiss",
+		"feed": "https://rachtiss.substack.com/feed",
+		"substack": "https://rachtiss.substack.com",
+		"twitter": "https://twitter.com/rachtiss"
+	},
+	{
+		"name": "Reznor Sarder",
+		"feed": "https://loveliesloss.substack.com/feed",
+		"substack": "https://loveliesloss.substack.com"
+	},
+	{
+		"name": "Rick Lewis",
+		"feed": "https://medium.com/feed/@ricklewisco",
+		"website": "https://medium.com/@ricklewisco",
+		"twitter": "https://twitter.com/ricklewisco"
+	},
+	{
+		"name": "Rik van den Berge",
+		"feed": "https://theconversationstarter.substack.com/feed",
+		"website": "https://rikvandenberge.com",
+		"substack": "https://theconversationstarter.substack.com"
+	},
+	{
+		"name": "Sairam Sundaresan",
+		"feed": "https://newsletter.artofsaience.com/feed",
+		"website": "https://www.artofsaience.com/",
+		"website": "https://newsletter.artofsaience.com",
+		"twitter": "https://twitter.com/DSaience"
+	},
+	{
+		"name": "Sandra Yvonne",
+		"feed": "https://sundaycandy.substack.com/feed",
+		"website": "https://www.sandrayvonne.com",
+		"substack": "https://sundaycandy.substack.com",
+		"twitter": "https://twitter.com/SandraYvonne_"
+	},
+	{
+		"name": "Shelby Smith",
+		"feed": "https://shelbysmith.co/feed/",
+		"website": "https://shelbysmith.co/",
+		"twitter": "https://twitter.com/shelbysmith_co"
+	},
+	{
+		"name": "Silvio Castelletti",
+		"feed": "https://silviocastelletti.substack.com/feed",
+		"substack": "https://silviocastelletti.substack.com"
+	},
+	{
+		"name": "Steven Foster",
+		"feed": "https://stevenfoster.substack.com/feed",
+		"website": "https://stevenfoster.net",
+		"substack": "https://stevenfoster.substack.com",
+		"twitter": "https://twitter.com/_stevenfoster"
+	},
+	{
+		"name": "Taylor Foreman",
+		"feed": "https://taylorforeman.substack.com/feed",
+		"website": "https://www.taylorforeman.com",
+		"substack": "https://taylorforeman.substack.com",
+		"twitter": "https://twitter.com/JTaylorForeman"
+	},
+	{
+		"name": "Tai White",
+		"feed": "https://taiquinnwhyte.substack.com/feed",
+		"website": "https://taiquinnwhyte.com",
+		"substack": "https://taiquinnwhyte.substack.com",
+		"twitter": "https://twitter.com/taiwhyte"
+	},
+	{
+		"name": "Tobi Emonts-Holley",
+		"feed": "https://www.tobisblog.uk/blog-posts?format=rss",
+		"website": "https://www.tobisblog.uk/",
+		"twitter": "https://twitter.com/tobi_emonts"
+	},
+	{
+		"name": "Wes Melville",
+		"feed": "https://districtdistinct.com/blog?format=rss",
+		"website": "https://districtdistinct.com",
+		"twitter": "https://twitter.com/wesmelville"
+	},
+	{
+		"name": "Yehudis",
+		"feed": "https://yehudismilchtein.substack.com/feed",
+		"substack": "https://yehudismilchtein.substack.com",
+		"twitter": "https://twitter.com/YehudisUM"
+	}
+
+
+]
