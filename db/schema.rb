@@ -31,8 +31,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_01_02_155421) do
     t.string "website"
     t.string "substack"
     t.string "twitter"
-    t.boolean "staff"
-    t.boolean "mentor"
+    t.boolean "staff", default: false
+    t.boolean "mentor", default: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
