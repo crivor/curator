@@ -1,0 +1,8 @@
+<h1>Published Recently</h1>
+
+<% @posts.each do |p| %>
+	<a href="<%= p.link %>">
+	<h2><%= p.title %></h2>
+	<p>by <%= p.writer.name %></p> 
+	</a>
+<% end %>
