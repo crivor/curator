@@ -13,6 +13,7 @@ namespace :fetch do
       URI.open(writer.feed) do |rss|
         feed = RSS::Parser.parse(rss)
         feed.items.each do |item|
+          Post.create(title: item.title, pubdate: item.pubDate, link: item.link, writer_id: writer.id)
           #puts "#{item.title}"
           #puts "PubDate: #{item.pubDate}"
           #puts "Link: #{item.link}"
