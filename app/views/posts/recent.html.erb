@@ -1,8 +1,17 @@
 <h1>Published Recently</h1>
 
-<% @posts.each do |p| %>
-	<a href="<%= p.link %>">
-	<h2><%= p.title %></h2>
-	<p>by <%= p.writer.name %></p> 
-	</a>
-<% end %>
+<main class="container">
+	<div class="row g-5">
+		<div class="col-md-8">
+
+			<% @posts.each do |p| %>
+				<article class="blog-post">
+				<a href="<%= p.link %>">
+				<h2 class="blog-post-title mb-1"><%= p.title %></h2>
+				<p class="blog-post-meta">by <%= p.writer.name %></p> 
+				</a>
+				</article>
+			<% end %>
+		</div>
+	</div>
+</main>
