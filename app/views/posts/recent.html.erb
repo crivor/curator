@@ -1,4 +1,17 @@
-<h1>Published Recently</h1>
+<div class="container">
+  <header class="blog-header lh-1 py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-4 pt-1">
+        
+      </div>
+      <div class="col-4 text-center">
+        <a class="blog-header-logo text-dark" href="#">Recently Published</a>
+      </div>
+      <div class="col-4 d-flex justify-content-end align-items-center">
+        
+      </div>
+    </div>
+  </header>
 
 <main class="container">
 	<div class="row g-5">
@@ -7,7 +20,7 @@
 			<% @posts.each do |p| %>
 				<article class="blog-post">
 				<a href="<%= p.link %>">
-				<h2 class="blog-post-title mb-1"><%= p.title %></h2>
+				<h3 class="blog-post-title mb-1"><%= p.title %></h3>
 				<p class="blog-post-meta">by <%= p.writer.name %></p> 
 				</a>
 				</article>
@@ -15,3 +28,5 @@
 		</div>
 	</div>
 </main>
+
+</div>
