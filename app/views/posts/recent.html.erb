@@ -18,12 +18,10 @@
 		<div class="col-md-8">
 
 			<% @posts.each do |p| %>
-				<article class="blog-post">
 				<a href="<%= p.link %>">
 				<h3 class="blog-post-title mb-1"><%= p.title %></h3>
 				<p class="blog-post-meta">by <%= p.writer.name %></p> 
 				</a>
-				</article>
 			<% end %>
 		</div>
 	</div>
