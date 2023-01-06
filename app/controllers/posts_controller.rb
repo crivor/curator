@@ -3,6 +3,6 @@ class PostsController < ApplicationController
   end
 
   def recent
-    @posts = Post.where(:pubdate => 2.days.ago..Time.now).order(pubdate: :desc)
+    @posts = Post.recent
   end
 end
