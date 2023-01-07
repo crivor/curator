@@ -15,14 +15,13 @@
 
 <main class="container">
 	<div class="row g-5">
-		<div class="col-md-8">
+		<div class="col-md-12">
 
 			<% @posts.each do |p| %>
-				<a href="<%= p.link %>">
-				<h3 class="blog-post-title mb-1"><%= p.title %></h3>
+				<h3 class="blog-post-title mb-1"><a href="<%= p.link %>"><%= p.title %></a></h3>
 				<p class="blog-post-meta">by <%= p.writer.name %> <%= time_ago_in_words(p.pubdate) %> ago</p>
-				</a>
 			<% end %>
+
 		</div>
 	</div>
 </main>
