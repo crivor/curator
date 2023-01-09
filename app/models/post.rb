@@ -6,6 +6,6 @@ class Post < ApplicationRecord
   validates :link, presence: true,
                     uniqueness: true
 
-  scope :recent, -> { includes(:writer).where(:pubdate => 2.days.ago..Time.now).order(pubdate: :desc) }
+  scope :recent, -> { includes(:writer).where(:pubdate => 3.days.ago..Time.now).order(pubdate: :desc) }
 
 end
