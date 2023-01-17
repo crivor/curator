@@ -28,4 +28,11 @@ namespace :fetch do
     end
   end
 
+  task substack_posts: :environment do
+    writers = Writer.where.not(substack: nil)
+    writers.each do |writer|
+      writer.fetch_new_posts
+    end
+  end
+
 end
