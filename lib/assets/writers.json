@@ -178,8 +178,9 @@
 	},
 	{
 		"name": "Angie Wang",
-		"feed": "https://www.angiecreates.io/rss/",
+		"feed": "https://angiecreates.substack.com/feed",
 		"website": "https://www.angiecreates.io/",
+		"substack": "https://angiecreates.substack.com",
 		"twitter": "https://twitter.com/angieeecreates"
 	},
 	{
@@ -187,6 +188,12 @@
 		"feed": "https://www.azulwells.com/essays?format=rss",
 		"website": "https://www.azulwells.com",
 		"twitter": "https://twitter.com/Azul_Wells"
+	},
+	{
+		"name": "Beck Hayes",
+		"feed": "https://www.beckhayes.com/rss/",
+		"website": "https://www.beckhayes.com/",
+		"twitter": "https://twitter.com/beckymaehayes",
 	},
 	{
 		"name": "Brent Lyman",
@@ -207,9 +214,9 @@
 	},
 	{
 		"name": "Bryan Liu",
-		"feed": "https://theworthypath.substack.com/feed",
+		"feed": "https://bryandiscovers.substack.com/feed",
 		"website": "https://bryanliu.blog",
-		"substack": "https://theworthypath.substack.com/",
+		"substack": "https://bryandiscovers.substack.com",
 		"twitter": "https://twitter.com/AceBryanLiu"
 	},
 	{
@@ -291,6 +298,11 @@
 		"twitter": "https://twitter.com/EmmySobieski"
 	},
 	{
+		"name": "Eric Ho",
+		"feed": "https://ericho.substack.com",
+		"substack": "https://ericho.substack.com/feed"
+	},
+	{
 		"name": "Ethan Cohen",
 		"feed": "https://ethancohen.substack.com/feed",
 		"substack": "https://ethancohen.substack.com",
@@ -308,6 +320,11 @@
 		"feed": "http://explore.cosmobiota.com/?format=rss",
 		"website": "https://cosmobiota.com",
 		"twitter": "https://twitter.com/cosmobiologist"
+	},
+	{
+		"name": "Grant Shillings",
+		"feed": "https://www.grant-shillings.com/writing?format=rss",
+		"website": "https://www.grant-shillings.com/"
 	},
 	{
 		"name": "Helen Jiang",
@@ -330,6 +347,12 @@
 		"feed": "https://learnitalletter.substack.com/feed",
 		"twitter": "https://twitter.com/JenVermet",
 		"substack": "https://learnitalletter.substack.com"
+	},
+	{
+		"name": "Jesse Shannon",
+		"feed": "https://jesseshannon.substack.com/feed",
+		"substack": "https://jesseshannon.substack.com",
+		"twitter": "https://twitter.com/Y2ZL"
 	},
 	{
 		"name": "Josh Cadorette",
