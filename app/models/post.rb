@@ -6,6 +6,14 @@ class Post < ApplicationRecord
   validates :link, presence: true,
                     uniqueness: true
 
+  after_commit :log_commit
+
   scope :recent, -> { includes(:writer).where(:pubdate => 3.days.ago..Time.now).order(pubdate: :desc) }
+
+  private
+
+  def log_commit
+    logger.debug("#{title} by #{writer.name} was successfully saved.")
+  end
 
 end
