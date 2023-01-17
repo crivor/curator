@@ -10,7 +10,7 @@ class Writer < ApplicationRecord
 
 	def fetch_new_posts
 		begin
-			URI.open(feed) do |rss|
+			URI.open(feed, :open_timeout => 3) do |rss|
 				feed = RSS::Parser.parse(rss)
 				feed.items.each do |item|
 					Post.create(title: item.title, pubdate: item.pubDate, link: item.link, writer_id: id)
@@ -18,6 +18,8 @@ class Writer < ApplicationRecord
 			end
 		rescue OpenURI::HTTPError
 			puts "request failed for #{name}"
+		rescue Net::OpenTimeout
+			puts "request timed out for #{name}"
 		end
 	end
 
