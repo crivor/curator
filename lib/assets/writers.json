@@ -3,7 +3,6 @@
 		"name": "David Perell",
 		"feed": "https://perell.com/feed/",
 		"website": "https://perell.com/",
-		"substack": "",
 		"twitter": "https://twitter.com/david_perell",
 		"mentor": false,
 		"staff": true
@@ -39,7 +38,6 @@
 		"name": "Charlotte Grysolle",
 		"feed": "https://www.charlottegrysolle.com/blog/rss/",
 		"website": "https://www.charlottegrysolle.com",
-		"substack": "",
 		"twitter": "https://twitter.com/chargrysolle",
 		"mentor": false,
 		"staff": true
@@ -84,7 +82,6 @@
 		"name": "Corey Wilks",
 		"feed": "https://coreywilkspsyd.com/feed/",
 		"website": "https://coreywilkspsyd.com",
-		"substack": "",
 		"twitter": "https://twitter.com/CoreyWilksPsyD",
 		"mentor": true,
 		"staff": false
@@ -93,7 +90,6 @@
 		"name": "Ed Latimore",
 		"feed": "https://edlatimore.com/feed.xml",
 		"website": "https://edlatimore.com",
-		"substack": "",
 		"twitter": "https://twitter.com/edlatimore",
 		"mentor": true,
 		"staff": false
@@ -102,7 +98,6 @@
 		"name": "John Nicholas",
 		"feed": "https://www.johnnicholas.org/blog/rss/",
 		"website": "https://www.johnnicholas.org",
-		"substack": "",
 		"twitter": "https://twitter.com/john__nic",
 		"mentor": true,
 		"staff": false
@@ -111,7 +106,6 @@
 		"name": "JooJo Ocran",
 		"feed": "https://www.getrevue.co/profile/joojoocran?format=rss",
 		"website": "https://www.joojoocran.com",
-		"substack": "",
 		"twitter": "https://twitter.com/odomfoneba",
 		"mentor": true,
 		"staff": false
@@ -138,7 +132,6 @@
 		"name": "Michael Sklar",
 		"feed": "https://www.sklarinterests.com/writing?format=rss",
 		"website": "https://www.sklarinterests.com",
-		"substack": "",
 		"twitter": "https://twitter.com/michaelsklar",
 		"mentor": true,
 		"staff": false
@@ -147,7 +140,6 @@
 		"name": "Terri Lonier",
 		"feed": "https://terrilonier.com/feed/",
 		"website": "https://terrilonier.com",
-		"substack": "",
 		"twitter": "https://twitter.com/TerriLonier",
 		"mentor": true,
 		"staff": false
