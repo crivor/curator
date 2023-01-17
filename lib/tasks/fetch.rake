@@ -31,6 +31,7 @@ namespace :fetch do
   task substack_posts: :environment do
     writers = Writer.where.not(substack: nil)
     writers.each do |writer|
+      puts "Fetching Posts for #{writer.name} from #{writer.feed}"
       writer.fetch_new_posts
     end
   end
