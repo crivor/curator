@@ -299,8 +299,8 @@
 	},
 	{
 		"name": "Eric Ho",
-		"feed": "https://ericho.substack.com",
-		"substack": "https://ericho.substack.com/feed"
+		"feed": "https://ericho.substack.com/feed",
+		"substack": "https://ericho.substack.com/"
 	},
 	{
 		"name": "Ethan Cohen",
