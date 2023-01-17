@@ -5,26 +5,11 @@ namespace :fetch do
   desc "fetch new posts"
   task new_posts: :environment do
     # Get an array of all Writers
-    writers = Writer.all
+    writers = Writer.where.not(feed: nil)
     # fetch posts from each writers feed
     writers.each do |writer|
-      post_count = 0
-      puts "Getting Posts for #{writer.name}"
-      begin
-        URI.open(writer.feed) do |rss|
-          feed = RSS::Parser.parse(rss)
-          feed.items.each do |item|
-            Post.create(title: item.title, pubdate: item.pubDate, link: item.link, writer_id: writer.id)
-            #puts "#{item.title}"
-            #puts "PubDate: #{item.pubDate}"
-            #puts "Link: #{item.link}"
-            post_count += 1
-          end
-          puts "Found #{post_count} articles for #{writer.name}"
-        end 
-      rescue OpenURI::HTTPError
-        puts "request failed for #{writer.name}"
-      end
+      puts "Fetching Posts for #{writer.name} from #{writer.feed}"
+      writer.fetch_new_posts
     end
   end
 
