@@ -1,7 +1,12 @@
 require "test_helper"
 
 class WriterTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+
+  def setup
+    @writer = Writer.new(name: "Testy McTest")
+  end
+
+  test "should be valid" do
+    assert @writer.valid?
+  end
 end
