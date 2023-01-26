@@ -3,6 +3,7 @@ class Writer < ApplicationRecord
 	has_many :posts
 
 	validates_presence_of :name
+	validates_length_of :name, within: 2..55
 
 	def most_recent_post
 		posts.sort_by(&:pubdate).last
