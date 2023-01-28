@@ -27,4 +27,9 @@ class PostTest < ActiveSupport::TestCase
     assert_not @post.valid?
   end
 
+  test "post link should be a valid format" do
+    @post.link = "/p/001.html"
+    assert_not @post.valid?
+  end
+
 end
