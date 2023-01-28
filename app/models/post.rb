@@ -3,8 +3,11 @@ class Post < ApplicationRecord
 
   validates_presence_of :title
   validates_presence_of :pubdate
+  VALID_LINK_REGEX = /https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&\/\/=]*)/
   validates :link, presence: true,
-                    uniqueness: true
+                    uniqueness: true,
+                    length: { maximum: 300 },
+                    format: { with: VALID_LINK_REGEX }
 
   after_commit :log_commit
 
