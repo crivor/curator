@@ -4,7 +4,8 @@ class Post < ApplicationRecord
   validates_presence_of :title
   validates_presence_of :pubdate
   validates :link, presence: true,
-                    uniqueness: true
+                    uniqueness: true,
+                    length: { maximum: 300 }
 
   after_commit :log_commit
 
