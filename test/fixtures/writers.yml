@@ -1,19 +1,19 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  feed: MyString
-  website: MyString
+  name: David Perell
+  feed: 'https://perell.com/feed/'
+  website: 'https://perell.com/'
   substack: MyString
-  twitter: MyString
-  staff: false
+  twitter: 'https://twitter.com/david_perell'
+  staff: true
   mentor: false
 
 two:
-  name: MyString
-  feed: MyString
-  website: MyString
-  substack: MyString
-  twitter: MyString
+  name: Steven Foster
+  feed: 'https://stevenfoster.substack.com/feed'
+  website: 'https://stevenfoster.net'
+  substack: 'https://stevenfoster.substack.com'
+  twitter: 'https://twitter.com/_stevenfoster'
   staff: false
   mentor: false

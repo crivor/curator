@@ -1,15 +1,15 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  title: MyString
-  link: MyText
-  content: MyText
+  title: Test Post One
+  link: 'https://perell.com/note/28-pieces-of-life-advice/'
+  content: 'test content'
   pubdate: 2023-01-02 07:54:21
   writer: one
 
 two:
-  title: MyString
-  link: MyText
-  content: MyText
+  title: 'Library Notes: January 13th, 2023'
+  link: 'https://stevenfoster.substack.com/p/library-notes-january-13th-2023'
+  content: nil
   pubdate: 2023-01-02 07:54:21
   writer: two
