@@ -22,4 +22,9 @@ class PostTest < ActiveSupport::TestCase
     assert_not @post.valid?
   end
 
+  test "post link should not be more than 300 characters" do
+    @post.link = "https:test.substack.com/p/" + "a" * 300
+    assert_not @post.valid?
+  end
+
 end
