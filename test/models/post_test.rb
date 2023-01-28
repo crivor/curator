@@ -16,4 +16,10 @@ class PostTest < ActiveSupport::TestCase
     assert_not @post.valid?
   end
 
+  test "post link should be unique" do
+    other_post = Writer.first.posts.first
+    @post.link = other_post.link
+    assert_not @post.valid?
+  end
+
 end
